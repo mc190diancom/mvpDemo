@@ -1,0 +1,6 @@
+1、本项目结构为mvp结构
+2、ui为mvp中的view，activity负责页面的展示和交互，不直接和model打交道，由presenter直接返回想要的数据
+3、model?
+4、service中的presenter即是项目框架的presenter，用于管理Model
+5、首先初始化retrofit和把异步请求的结果绑定datacall里面的接口，用于回调收到的异步消息
+6、之后view中请求需要的数据，以及把返回结果展示在需要的view中
